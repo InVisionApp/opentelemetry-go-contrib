@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	mocktrace "go.opentelemetry.io/contrib/internal/trace"
+	mocktrace "github.com/InVisionApp/opentelemetry-go-contrib/internal/trace"
 	otelcore "github.com/InVisionApp/opentelemetry-go/api/core"
 	otelglobal "github.com/InVisionApp/opentelemetry-go/api/global"
 	otelpropagation "github.com/InVisionApp/opentelemetry-go/api/propagation"
@@ -43,7 +43,7 @@ func TestChildSpanFromGlobalTracer(t *testing.T) {
 		spanTracer := span.Tracer()
 		mockTracer, ok := spanTracer.(*mocktrace.Tracer)
 		require.True(t, ok)
-		assert.Equal(t, "go.opentelemetry.io/contrib/plugins/gorilla/mux", mockTracer.Name)
+		assert.Equal(t, "github.com/InVisionApp/opentelemetry-go-contrib/plugins/gorilla/mux", mockTracer.Name)
 		w.WriteHeader(http.StatusOK)
 	}))
 

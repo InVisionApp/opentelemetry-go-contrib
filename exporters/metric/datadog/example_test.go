@@ -6,7 +6,7 @@ import (
 
 	"github.com/DataDog/sketches-go/ddsketch"
 
-	"go.opentelemetry.io/contrib/exporters/metric/datadog"
+	"github.com/InVisionApp/opentelemetry-go-contrib/exporters/metric/datadog"
 	"github.com/InVisionApp/opentelemetry-go/api/global"
 	"github.com/InVisionApp/opentelemetry-go/api/metric"
 	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"

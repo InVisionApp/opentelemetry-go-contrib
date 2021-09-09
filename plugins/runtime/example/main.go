@@ -25,7 +25,7 @@ import (
 	metricstdout "github.com/InVisionApp/opentelemetry-go/exporters/metric/stdout"
 	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
 
-	"go.opentelemetry.io/contrib/plugins/runtime"
+	"github.com/InVisionApp/opentelemetry-go-contrib/plugins/runtime"
 )
 
 func initMeter() *push.Controller {

@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/plugins/runtime
+module github.com/InVisionApp/opentelemetry-go-contrib/plugins/runtime
 
 go 1.14
 

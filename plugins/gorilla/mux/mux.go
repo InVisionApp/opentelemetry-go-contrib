@@ -21,14 +21,14 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"go.opentelemetry.io/contrib/internal/trace"
+	"github.com/InVisionApp/opentelemetry-go-contrib/internal/trace"
 	otelglobal "github.com/InVisionApp/opentelemetry-go/api/global"
 	otelpropagation "github.com/InVisionApp/opentelemetry-go/api/propagation"
 	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 const (
-	tracerName = "go.opentelemetry.io/contrib/plugins/gorilla/mux"
+	tracerName = "github.com/InVisionApp/opentelemetry-go-contrib/plugins/gorilla/mux"
 )
 
 // Middleware sets up a handler to start tracing the incoming

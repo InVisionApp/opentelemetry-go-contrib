@@ -15,7 +15,7 @@
 package trace_test
 
 import (
-	"go.opentelemetry.io/contrib/plugins/sample/trace"
+	"github.com/InVisionApp/opentelemetry-go-contrib/plugins/sample/trace"
 )
 
 func ExampleRegister() {

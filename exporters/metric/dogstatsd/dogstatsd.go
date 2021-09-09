@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package dogstatsd // import "go.opentelemetry.io/contrib/exporters/metric/dogstatsd"
+package dogstatsd // import "github.com/InVisionApp/opentelemetry-go-contrib/exporters/metric/dogstatsd"
 
 import (
 	"bytes"
 	"time"
 
-	"go.opentelemetry.io/contrib/exporters/metric/dogstatsd/internal/statsd"
+	"github.com/InVisionApp/opentelemetry-go-contrib/exporters/metric/dogstatsd/internal/statsd"
 	"github.com/InVisionApp/opentelemetry-go/api/global"
 	"github.com/InVisionApp/opentelemetry-go/api/metric"
 	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
