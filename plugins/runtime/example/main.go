@@ -21,9 +21,9 @@ import (
 	"syscall"
 	"time"
 
-	"go.opentelemetry.io/otel/api/global"
-	metricstdout "go.opentelemetry.io/otel/exporters/metric/stdout"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	metricstdout "github.com/InVisionApp/opentelemetry-go/exporters/metric/stdout"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
 
 	"go.opentelemetry.io/contrib/plugins/runtime"
 )

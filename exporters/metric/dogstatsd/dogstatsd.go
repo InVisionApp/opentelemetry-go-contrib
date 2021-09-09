@@ -19,15 +19,15 @@ import (
 	"time"
 
 	"go.opentelemetry.io/contrib/exporters/metric/dogstatsd/internal/statsd"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/array"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/lastvalue"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
-	"go.opentelemetry.io/otel/sdk/metric/batcher/ungrouped"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/array"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/lastvalue"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/sum"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/batcher/ungrouped"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 type (

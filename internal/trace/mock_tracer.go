@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	otelcore "go.opentelemetry.io/otel/api/core"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	otelcore "github.com/InVisionApp/opentelemetry-go/api/core"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 type Provider struct {

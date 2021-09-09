@@ -7,9 +7,9 @@ import (
 
 	"github.com/DataDog/datadog-go/statsd"
 
-	"go.opentelemetry.io/otel/api/core"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregator"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	export "github.com/InVisionApp/opentelemetry-go/sdk/export/metric"
+	"github.com/InVisionApp/opentelemetry-go/sdk/export/metric/aggregator"
 )
 
 const (

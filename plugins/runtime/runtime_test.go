@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/api/global"
+	"github.com/InVisionApp/opentelemetry-go/api/global"
 )
 
 func TestRuntime(t *testing.T) {

@@ -15,8 +15,8 @@
 package mux
 
 import (
-	otelpropagation "go.opentelemetry.io/otel/api/propagation"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	otelpropagation "github.com/InVisionApp/opentelemetry-go/api/propagation"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 // Config is used to configure the mux middleware.

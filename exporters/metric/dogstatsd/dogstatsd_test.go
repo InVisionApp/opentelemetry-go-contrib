@@ -22,12 +22,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"go.opentelemetry.io/contrib/exporters/metric/dogstatsd"
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/key"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/metric/test"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/key"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/exporters/metric/test"
+	"github.com/InVisionApp/opentelemetry-go/sdk/metric/aggregator/sum"
+	"github.com/InVisionApp/opentelemetry-go/sdk/resource"
 )
 
 // TestDogstatsLabels that labels are formatted in the correct style,

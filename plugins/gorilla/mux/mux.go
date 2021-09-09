@@ -22,9 +22,9 @@ import (
 	"github.com/gorilla/mux"
 
 	"go.opentelemetry.io/contrib/internal/trace"
-	otelglobal "go.opentelemetry.io/otel/api/global"
-	otelpropagation "go.opentelemetry.io/otel/api/propagation"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	otelglobal "github.com/InVisionApp/opentelemetry-go/api/global"
+	otelpropagation "github.com/InVisionApp/opentelemetry-go/api/propagation"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 const (

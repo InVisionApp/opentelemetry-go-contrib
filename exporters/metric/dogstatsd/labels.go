@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"sync"
 
-	"go.opentelemetry.io/otel/api/core"
-	"go.opentelemetry.io/otel/api/label"
+	"github.com/InVisionApp/opentelemetry-go/api/core"
+	"github.com/InVisionApp/opentelemetry-go/api/label"
 )
 
 // LabelEncoder encodes metric labels in the dogstatsd syntax.
