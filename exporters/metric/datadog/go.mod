@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/exporters/metric/datadog
+module github.com/InVisionApp/opentelemetry-go-contrib/exporters/metric/datadog
 
 go 1.14
 

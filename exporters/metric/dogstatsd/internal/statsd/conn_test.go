@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/contrib/exporters/metric/dogstatsd/internal/statsd"
+	"github.com/InVisionApp/opentelemetry-go-contrib/exporters/metric/dogstatsd/internal/statsd"
 	"github.com/InVisionApp/opentelemetry-go/api/core"
 	"github.com/InVisionApp/opentelemetry-go/api/key"
 	"github.com/InVisionApp/opentelemetry-go/api/label"

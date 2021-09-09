@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/tools
+module github.com/InVisionApp/opentelemetry-go-contrib/tools
 
 go 1.13
 

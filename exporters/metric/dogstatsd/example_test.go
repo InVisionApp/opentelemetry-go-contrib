@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/contrib/exporters/metric/dogstatsd"
+	"github.com/InVisionApp/opentelemetry-go-contrib/exporters/metric/dogstatsd"
 	"github.com/InVisionApp/opentelemetry-go/api/key"
 	"github.com/InVisionApp/opentelemetry-go/api/metric"
 	"github.com/InVisionApp/opentelemetry-go/sdk/metric/controller/push"

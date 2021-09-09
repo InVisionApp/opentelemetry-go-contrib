@@ -17,4 +17,4 @@
 //
 // Currently only the routing of a received message can be
 // instrumented. To do it, use the Middleware function.
-package mux // import "go.opentelemetry.io/contrib/plugins/gorilla/mux"
+package mux // import "github.com/InVisionApp/opentelemetry-go-contrib/plugins/gorilla/mux"
