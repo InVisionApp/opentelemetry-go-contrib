@@ -23,8 +23,8 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	otelcore "go.opentelemetry.io/otel/api/core"
-	otelkey "go.opentelemetry.io/otel/api/key"
+	otelcore "github.com/InVisionApp/opentelemetry-go/api/core"
+	otelkey "github.com/InVisionApp/opentelemetry-go/api/key"
 )
 
 // NetAttributesFromHTTPRequest generates attributes of the net

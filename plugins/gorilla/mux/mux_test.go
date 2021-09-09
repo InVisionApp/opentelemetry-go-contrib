@@ -25,10 +25,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	mocktrace "go.opentelemetry.io/contrib/internal/trace"
-	otelcore "go.opentelemetry.io/otel/api/core"
-	otelglobal "go.opentelemetry.io/otel/api/global"
-	otelpropagation "go.opentelemetry.io/otel/api/propagation"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	otelcore "github.com/InVisionApp/opentelemetry-go/api/core"
+	otelglobal "github.com/InVisionApp/opentelemetry-go/api/global"
+	otelpropagation "github.com/InVisionApp/opentelemetry-go/api/propagation"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 func TestChildSpanFromGlobalTracer(t *testing.T) {

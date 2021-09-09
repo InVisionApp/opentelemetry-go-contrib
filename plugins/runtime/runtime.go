@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/unit"
+	"github.com/InVisionApp/opentelemetry-go/api/metric"
+	"github.com/InVisionApp/opentelemetry-go/api/unit"
 )
 
 // Runtime reports the work-in-progress conventional runtime metrics specified by OpenTelemetry

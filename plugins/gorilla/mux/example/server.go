@@ -23,11 +23,11 @@ import (
 	"github.com/gorilla/mux"
 
 	muxtrace "go.opentelemetry.io/contrib/plugins/gorilla/mux"
-	otelglobal "go.opentelemetry.io/otel/api/global"
-	otelkey "go.opentelemetry.io/otel/api/key"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
-	oteltracestdout "go.opentelemetry.io/otel/exporters/trace/stdout"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	otelglobal "github.com/InVisionApp/opentelemetry-go/api/global"
+	otelkey "github.com/InVisionApp/opentelemetry-go/api/key"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
+	oteltracestdout "github.com/InVisionApp/opentelemetry-go/exporters/trace/stdout"
+	sdktrace "github.com/InVisionApp/opentelemetry-go/sdk/trace"
 )
 
 var tracer = otelglobal.Tracer("mux-server")

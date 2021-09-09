@@ -20,8 +20,8 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	otelcore "go.opentelemetry.io/otel/api/core"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
+	otelcore "github.com/InVisionApp/opentelemetry-go/api/core"
+	oteltrace "github.com/InVisionApp/opentelemetry-go/api/trace"
 )
 
 // Span is a mock span used in association with Tracer for
