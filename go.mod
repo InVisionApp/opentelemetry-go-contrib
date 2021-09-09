@@ -1,6 +1,6 @@
-module go.opentelemetry.io/contrib
+module github.com/InVisionApp/opentelemetry-go-contrib
 
-go 1.14
+go 1.16
 
 require (
 	github.com/InVisionApp/opentelemetry-go v0.4.4
